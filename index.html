@@ -1,0 +1,86 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Smart Fridge</title>
+ <link rel="stylesheet" href="css/style.css">
+  <!--[if lt IE 9]><script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+<style>
+html
+{
+margin:0;
+padding:0;
+background-color:#FFF;	
+}
+body
+{
+ margin:0 auto 2em;
+ padding:0;
+ background-color:#FFF;	
+}
+
+#main-container
+{
+	margin:0 auto;
+	padding:0 px;
+	height:1100 px;
+	width:960px;
+	position:relative;
+    background-color:#FFF;
+}
+#fridge-container
+{
+	margin:0;
+	padding:0;
+	position:relative;
+	height:1050 px;
+	width:750 px;
+	left:107px;
+}
+#login-container
+{
+	margin:0;
+	padding:0;
+	position:absolute;
+	width:300px;
+	height:225px;
+	left:310px;
+    bottom:555px;
+}
+
+img
+{
+	border:none;
+}
+
+</style>
+
+</head>
+<body>
+<div id="main-container">
+<div id="fridge-container">
+<img src="images/smart_fridge.jpg" height="1052" width="746"/>
+<div id="login-container">
+<form method="post" action="fridge.html" class="login">
+    <p>
+      <label for="login">Email:</label>
+      <input type="text" name="login" id="login" value="name@example.com" style="">
+    </p>
+
+    <p>
+      <label for="password">Password:</label>
+      <input type="password" name="password" id="password" value="4815162342">
+    </p>
+
+    <p class="login-submit">
+      <button type="submit" class="login-button">Login</button>
+    </p>
+
+    <p class="forgot-password"><a href="index.html">Forgot your password?</a></p>
+  </form>
+</div>
+</div>
+</div>
+
+</body>
+</html>
